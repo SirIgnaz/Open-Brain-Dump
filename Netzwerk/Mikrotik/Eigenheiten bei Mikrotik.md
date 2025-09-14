@@ -16,7 +16,7 @@
 # 3. RAW-Tabelle
 
 - Sitzt vor Conntrack (Connection Tracking).
-- Gut, um Spam/Scans/Bogons sehr früh zu droppen.
+- Gut, um Spam/Scans/[Bogons](https://github.com/SirIgnaz/Open-Brain-Dump/blob/main/Netzwerk/Sonstiges/Bogon.md) sehr früh zu droppen.
 - Aber: RAW-Regeln wie „drop rest“ können leicht legitimen Traffic killen, wenn man nicht aufpasst.
 
 # 4. Bridge VLAN Filtering
