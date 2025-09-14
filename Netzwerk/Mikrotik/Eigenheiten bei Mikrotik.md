@@ -10,13 +10,13 @@
 - Input = Traffic zum Router selbst (z. B. Ping auf Router-IP, Winbox, SSH).
 - Forward = Traffic durch den Router hindurch (LAN → WAN, VLAN → VLAN).
 - Output = Traffic, den der Router selbst erzeugt (z. B. DNS-Query, NTP).
-- 
+  
 👉 Viele verwechseln input und forward, dadurch „verschwinden“ Pakete.
 
 # 3. RAW-Tabelle
 
 - Sitzt vor Conntrack (Connection Tracking).
-- 4Gut, um Spam/Scans/Bogons sehr früh zu droppen.
+- Gut, um Spam/Scans/Bogons sehr früh zu droppen.
 - Aber: RAW-Regeln wie „drop rest“ können leicht legitimen Traffic killen, wenn man nicht aufpasst.
 
 # 4. Bridge VLAN Filtering
