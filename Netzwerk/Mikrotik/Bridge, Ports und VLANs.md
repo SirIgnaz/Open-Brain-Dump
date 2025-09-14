@@ -28,7 +28,7 @@ Damit man Ports flexibel bündeln und VLANs einheitlich managen kann, legt man h
 - Typische Einsätze:
   - Uplink zu einem Switch
   - Verbindung zu einem Access Point mit mehreren SSIDs/VLANs
-- Auf einem Trunk laufen alle VLANs als [802.1Q](Open-Brain-Dump/Netzwerk/Protokolle/802.1Q)-getaggte Frames.
+- Auf einem Trunk laufen alle VLANs als [802.1Q](Open-Brain-Dump/Netzwerk/Protokolle/802.1Q.md)-getaggte Frames.
 
 # Warum ist die Bridge so wichtig?
 
